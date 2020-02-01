@@ -47,17 +47,6 @@ alias python='python3.6'
 alias tor='~/.local/share/applications/start-tor-browser.desktop'
 alias myplan='libreoffice ~/Documents/Other/plan.ods'
 alias getip='curl https://icanhazip.com'
-function vuze ()
-{
-	cd /opt/vuze
-	./vuze
-}
-
-function acp()
-{
-	message=$1
-	/home/jc/scripts/add_commit_push.sh -m $message
-}
 
 ### FUNCTIONS
 function q.co.red ()
@@ -92,9 +81,7 @@ function q.co.purple ()
 ### PROFILES
 touch ~/.profile_base && source ~/.profile_base
 touch ~/.profile_destinations && source ~/.profile_destinations
-if [[ -f /app/scripts/kube-enhance ]];then 
-  source /app/scripts/kube-enhance
-fi
+
 
 export PATH=~/bins:/opt:$PATH
 

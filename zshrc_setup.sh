@@ -9,5 +9,6 @@ then
 	sudo apt-get install zsh
 	echo "Shell installed"
 	echo "Copying template zshrc from repo..."
-	wget https://raw.githubusercontent.com/jctaillandier/ubuntu_setup/master/.zshrc?token=AHT7UAVFH4BSZIYPOV2FUMC6H36EW
+	cp ./.zshrc ~/.zshrc
+	echo "Installation completed. Log out and back in for changes to take effect"
 fi

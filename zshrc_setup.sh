@@ -10,5 +10,6 @@ then
 	echo "Shell installed"
 	echo "Copying template zshrc from repo..."
 	cp ./.zshrc ~/.zshrc
+	usermod --shell /bin/zsh $USER
 	echo "Installation completed. Log out and back in for changes to take effect"
 fi

@@ -9,7 +9,7 @@ then
 	sudo apt-get install zsh
 	echo "Shell installed"
 	echo "Copying template zshrc from repo..."
-	cp ./.zshrc ~/.zshrc
+	wget https://raw.githubusercontent.com/jctaillandier/ubuntu_setup/master/.zshrc
 	chsh /bin/zsh $USER
 	# usermod --shell /bin/zsh $USER # ubuntu mate worked with this
 	echo "Installation completed. Log out and back in for changes to take effect"

@@ -36,7 +36,7 @@
 
  autoload -U colors && colors
  PURPOSE=`cat /var/.purpose`
- PS1="$PURPOSE%{$fg[red]%}%n%{$reset_color%}@%{$fg[green]%}%m %{$fg[yellow]%}%~ %{$reset_color%}%% "
+ PS1="$PURPOSE%{$fg[white]%}%n%{$reset_color%}@%{$fg[red]%}%m %{$fg[Purple]%}%~ %{$reset_color%}%% "
 
 ### ALIASES
 alias ls="ls --color=auto"

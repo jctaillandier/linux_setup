@@ -14,6 +14,7 @@ then
 	# usermod --shell /bin/zsh $USER # ubuntu mate worked with this
 	echo "Installation completed. Log out and back in for changes to take effect"
 	if [ ! -d /var/.purpose ]; then
-		echo "Think of creating a file in /var/.purpose to have machine purpose at the beginning of signature"
+		echo "CHANGE ME->" | /var/.purpose
+		echo "Just created a file in /var/.purpose , you may change value"
 	fi
 fi

@@ -44,7 +44,6 @@ alias k="kubectl"
 alias ll="ls -alh"
 alias sshk="ssh-copy-id -i ~/.ssh/id_rsa.pub"
 alias python='python3.6'
-alias tor='~/.local/share/applications/start-tor-browser.desktop'
 alias myplan='libreoffice ~/Documents/Other/plan.ods'
 alias getip='curl https://icanhazip.com'
 
